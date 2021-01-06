@@ -1,11 +1,9 @@
-
-name
-enum ProjectStatus {
+export enum ProjectStatus {
   Active,
-  Finished,
+  Finished
 }
 
-class Project {
+export class Project {
   constructor(
     public id: string,
     public title: string,
